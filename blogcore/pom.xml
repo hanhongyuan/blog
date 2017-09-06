@@ -6,11 +6,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>blog-core</artifactId>
+    <artifactId>blogcore</artifactId>
     <packaging>war</packaging>
     <name>blog-core Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -19,6 +24,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>blog-core</finalName>
+        <finalName>blogcore</finalName>
     </build>
 </project>
